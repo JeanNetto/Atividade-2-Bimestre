@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+</body>
+</html>
+<div id="informacao1" class="info">
+    <p>Esta é uma beleza natural incrível...</p>
+  </div>
+  <button onclick="toggleVisibility('informacao1')">Mostrar/Esconder Mais</button>
+  <div class="gallery">
+    <img src="images/image1.jpg" alt="Imagem 1" onclick="openModal(this)">
+    <img src="images/image2.jpg" alt="Imagem 2" onclick="openModal(this)">
+  </div>
+  <div id="modal" class="modal" onclick="closeModal()">
+    <img id="modal-image" src="" alt="Imagem em grande escala">
+  </div>
+  <form id="feedback-form">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" required><br>
+  
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required><br>
+  
+    <label for="message">Mensagem:</label>
+    <textarea id="message" required></textarea><br>
+  
+    <button type="submit">Enviar</button>
+  </form>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<div id="map" style="height: 400px;"></div>
+<script src="/Atividade b9/jn.js"></script>
+<body>
+<html>
+
+    
